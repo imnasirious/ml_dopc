@@ -1,0 +1,34 @@
+# Python packages needed to run the code in this folder.
+#
+# Set up a fresh environment and install into it, for example with conda:
+#     conda create -n bilayer python=3.11
+#     conda activate bilayer
+#     pip install -r requirements.txt
+#
+# or with venv:
+#     python3 -m venv .venv
+#     source .venv/bin/activate          (Windows: .venv\Scripts\activate)
+#     pip install -r requirements.txt
+#
+# To run the notebooks in that environment:
+#     python -m ipykernel install --user --name bilayer
+# then pick the "bilayer" kernel in Jupyter.
+ 
+# core numerics and plotting
+numpy
+pandas
+scipy
+matplotlib
+ 
+# trajectory reading (generate_numpys.py, preprocessing, analysis notebooks)
+MDAnalysis
+ 
+# machine learning
+scikit-learn
+xgboost          # XGB training
+tensorflow       # LogisticMomentumGS (Keras backend) and the NN models
+scikeras         # sklearn wrapper around the Keras models
+ 
+# notebooks
+jupyter
+ipykernel

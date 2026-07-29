@@ -1,0 +1,22 @@
+# Python packages needed to run the code in this folder.
+# Install into the environment your Jupyter kernel uses:
+#     conda activate Biophysics
+#     pip install -r requirements.txt
+
+# core numerics and plotting
+numpy
+pandas
+scipy
+matplotlib
+
+# trajectory reading (generate_numpys.py, preprocessing, analysis notebooks)
+MDAnalysis
+
+# machine learning
+scikit-learn
+xgboost          # XGB training
+tensorflow       # LogisticMomentumGS (Keras backend) and the NN models
+scikeras         # sklearn wrapper around the Keras models
+
+# notebooks
+jupyter

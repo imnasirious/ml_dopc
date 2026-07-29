@@ -1,7 +1,1 @@
-checklist_nn
-
-heavy_data_NO_GIT/**
-
-!heavy_data_NO_GIT/**/
-
-!heavy_data_NO_GIT/**/.gitkeep
+heavy_data_NO_GIT/
