@@ -1,5 +1,5 @@
 heavy_data_NO_GIT/**
 
-!/data/**/
+!heavy_data_NO_GIT/**/
 
 !heavy_data_NO_GIT/**/.gitkeep
