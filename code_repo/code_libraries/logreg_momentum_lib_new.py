@@ -104,7 +104,6 @@ class LogisticMomentumGS:
             # learning-rate sweep covered, but is much cheaper to evaluate.
             self.param_grid = {
                 "clf__C": [0.001, 0.01, 0.1, 1.0, 10.0, 100.0],
-                "clf__penalty": ["l2"],   # swap to "l1" or "elasticnet" if sparse features
             }
 
         cv = self.cv if self.cv is not None else StratifiedKFold(
