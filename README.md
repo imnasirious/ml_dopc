@@ -26,7 +26,6 @@ https://doi.org/10.18738/T8/2KBDZA
 
 There is also an `asym` subfolder, originally intended for asymmetric systems — these will be addressed in a future study.
 
-> **Warning:** once these files are added, subsequent pushes to GitHub may fail due to storage limits.
 
 ## Workflow
 
