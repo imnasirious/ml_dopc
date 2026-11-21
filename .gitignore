@@ -1,1 +1,9 @@
-heavy_data_NO_GIT/
+# large data stays local: only the empty folder structure of heavy_data_NO_GIT is in the repository
+heavy_data_NO_GIT/**
+!heavy_data_NO_GIT/**/
+!heavy_data_NO_GIT/**/.gitkeep
+
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+._*

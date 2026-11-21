@@ -13,22 +13,22 @@
 # To run the notebooks in that environment:
 #     python -m ipykernel install --user --name bilayer
 # then pick the "bilayer" kernel in Jupyter.
- 
+
 # core numerics and plotting
 numpy
 pandas
 scipy
 matplotlib
- 
+
 # trajectory reading (generate_numpys.py, preprocessing, analysis notebooks)
 MDAnalysis
- 
+
 # machine learning
 scikit-learn
 xgboost          # XGB training
 tensorflow       # LogisticMomentumGS (Keras backend) and the NN models
 scikeras         # sklearn wrapper around the Keras models
- 
+
 # notebooks
 jupyter
 ipykernel
